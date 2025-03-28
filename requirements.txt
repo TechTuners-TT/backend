@@ -1,6 +1,14 @@
 fastapi[all]
+uvicorn
 supabase
-python-dotenv
 asyncpg
 databases
+sqlalchemy
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+PyJWT
+python-dotenv
 pydantic-settings
+httpx
+email-validator

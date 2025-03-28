@@ -7,4 +7,5 @@ class User(BaseModel):
     id: int
     username: str
     email: str
-
+class GoogleTokenRequest(BaseModel):
+    id_token: str
