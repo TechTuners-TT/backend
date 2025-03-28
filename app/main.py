@@ -1,5 +1,3 @@
-# app/main.py 
-
 from fastapi import FastAPI
 from app.api.routers import test_connection  # Ensure this is correct
 
