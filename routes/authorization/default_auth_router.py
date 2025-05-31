@@ -604,7 +604,7 @@ async def get_user_token(user_id: str):
         }).eq("user_id", user_id).execute()
 
         if update_result.data:
-            verification_url = f"https://techtuners-tt.github.io/frontend/#/authorization/verify-email?token={verification_token}"
+            verification_url = f"https://techtuners-tt.github.io/SelfSound/#/authorization/verify-email?token={verification_token}"
             return {
                 "user_id": user_id,
                 "token": verification_token,
